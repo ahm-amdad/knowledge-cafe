@@ -9,8 +9,8 @@ const Blogs = () => {
         .then(data => setBlogs(data))
     }, [])
     return (
-        <div>
-            <h3>{blogs}</h3>
+        <div className="md:w-2/3">
+            <div className="txtt-4xl">Blogs:{blogs.length}</div>
         </div>
     );
 };

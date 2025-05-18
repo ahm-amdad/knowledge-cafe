@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "cover": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "cover":"https://images.unsplash.com/photo-1522202176988-66273c2fd55f", 
     "title": "Exploring the Hidden Beaches of Bali",
     "author": "Liam Carter",
     "author_image": "https://randomuser.me/api/portraits/men/32.jpg",
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "cover": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "cover": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
     "title": "Mastering JavaScript in 30 Days",
     "author": "Sophie Nguyen",
     "author_image": "https://randomuser.me/api/portraits/women/45.jpg",

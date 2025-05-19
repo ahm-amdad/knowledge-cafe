@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { CiBookmarkPlus } from "react-icons/ci";
 
- const Blog = ({blog,handleAddToBookmark}) => {
+ const Blog = ({blog,handleAddToBookmark,handleMarkeasRead}) => {
     const {hastag,posted_date, title, reading_time, cover, id, author, author_image} = blog;
     return (
     
@@ -21,15 +21,15 @@ import { CiBookmarkPlus } from "react-icons/ci";
                 </div>
 
                 <div className="flex items-center">
-                    <span>{reading_time} min read</span>
-                    
+
+                    <span>{reading_time} min read</span> 
                     <button onClick={()=>handleAddToBookmark(blog.title)} className='ml-1'><CiBookmarkPlus /></button>
 
                 </div>
             </div>
             <h2 className='text-4xl font-bold mb-4'> {title}</h2>
             <p><a className='text-[#0000ffcc]' href="">{hastag}</a></p>
-            
+            <button onClick={()=>handleMarkeasRead(reading_time)}>Mark as Read</button>
         </div>
     );
 };

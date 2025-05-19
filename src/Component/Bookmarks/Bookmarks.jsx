@@ -1,11 +1,11 @@
 
 
-const Bookmarks = ({bookmarks}) => {
+const Bookmarks = ({bookmarks,marksasRead}) => {
     return (
 
          <div className="md:w-1/3 ">
             <div className="rounded-md font-bold text-center text-[20px] p-4 ml-5 my-3 p-5 bg-[#EFEDFD]">
-                <h3>Spent time on read : 177   min</h3>
+                <h3>Spent time on read : {marksasRead}   min</h3>
             </div>
 
             <div className="h-full rounded-t-md bg-[#DEDDD9]  p-4 ml-5 text-center mt-5">
